@@ -1,0 +1,183 @@
+html {
+  background: #F3F5F7;
+}
+
+body {
+  margin: 0;
+}
+
+/* header */
+header{
+  background-color:skyblue;
+  height: 70px;
+}
+/* header */
+
+/* main */
+.mainimg {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+/* .list1 */
+.list1 h1{
+  font-size: 20px;
+  opacity: 0.5;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.list1 ul {
+  list-style: none;
+}
+
+.list1 li {
+  margin-bottom: 30px;
+}
+
+.list1 li:hover {
+  opacity: 0.4;
+}
+
+.list1 a {
+  color: #0076b3;
+  text-decoration: none;
+}
+
+
+/* .list2 */
+.list2 h1{
+  font-size: 20px;
+  opacity: 0.5;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.list2 ul {
+  list-style: none;
+}
+
+.list2 li {
+  margin-bottom: 30px;
+}
+
+.list2 a {
+  color: #0076b3;
+  text-decoration: none;
+}
+
+.list2 li:hover {
+  opacity: 0.4;
+}
+
+
+/* .list3 */
+.list3 {
+  border-bottom: 2px;
+}
+
+.list3 h1{
+  font-size: 20px;
+  opacity: 0.5;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.list3 ul {
+  list-style: none;
+}
+
+.list3 li {
+  margin-bottom: 30px;
+}
+
+.list3 a {
+  color: #0076b3;
+  text-decoration: none;
+}
+
+.list3 li:hover {
+  opacity: 0.4;
+}
+/* .list3 */
+
+.border {
+  border-bottom: 2px solid #e3e3e3;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* main */
+
+/* footer */
+.iconlist a {
+  color: gray;
+  margin-top: 30px;
+}
+
+.iconlist {
+  margin-top: 30px;
+}
+
+.icon {
+  margin-left: 20px;
+}
+
+.footerimg {
+  margin: 20px 0 5px 10px ;
+}
+
+.container {
+  display: flex;
+}
+
+.footertext {
+  opacity: 0.3;
+  font-size: small;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.iconlist i:hover {
+  opacity: 0.4;
+
+}
+/* footer */
+
+@media (min-width: 375px) {
+  .footertext {
+    padding-top: 40px;
+  }
+
+}
+
+
+@media (min-width: 680px) {
+  .container1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+
+  .border {
+    padding-top: 70px;
+  }
+
+  .list1 {
+    line-height: 60px;
+  }
+
+  .list2 {
+    line-height: 60px;
+  }
+
+  .list3 {
+    line-height: 60px;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+}
